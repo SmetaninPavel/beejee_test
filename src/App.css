@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 500px;
+  height: 50px;
+}
+
+.filters div {
+  cursor: pointer;
+}
+
+.active {
+  font-weight: bolder;
+}
+
+.task {
+  margin: 10px 0;
+  background-color: #eee;
+  width: 320px;
+}
+
+.edited-task input {
+  float: none;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.pagination div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 40px 0;
+}
+
+.pagination div div {
+  margin: 0 7px;
+  cursor: pointer;
+}
+
+.error {
+  color: rgb(197, 56, 56);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 7px;
+}
+
+li input {
+  margin-left: 10px;
+}
+
+button {
+  margin: 7px 7px 0 0;
+}
+
+input {
+  float: right;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
