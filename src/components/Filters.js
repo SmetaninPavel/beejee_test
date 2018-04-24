@@ -6,21 +6,15 @@ function Filters({ onGetTasks, currentFilter }) {
       <div
         onClick={() => onGetTasks(1, 'username')}
         className={currentFilter === 'username' ? 'active' : ''}
-      >
-        Username
-      </div>
+      >Username</div>
       <div
         onClick={() => onGetTasks(1, 'email')}
         className={currentFilter === 'email' ? 'active' : ''}
-      >
-        Email
-      </div>
+      >Email</div>
       <div
         onClick={() => onGetTasks(1, 'status')}
         className={currentFilter === 'status' ? 'active' : ''}
-      >
-        Status
-      </div>
+      >status</div>
     </div>
   );
 }
